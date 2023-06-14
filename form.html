@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+h1 {
+    color: aliceblue;
+    background: purple;
+}
+* {
+background-color: #FEFBF6;
+
+}
+</style>
+
+<body>
+    <H1>Sign Up Form example</H1>
+    <form action="form.html" method="get"></form>
+    <label>first,last name*:</label>
+    <input type="text" name= name:> <input type="text" name= "name"required>
+    <br> 
+    <label>organization:  </label>
+    <input type="text" name= "organization">
+    <br>
+    <label>Email address*:</label>
+    <input type="text" name= "Email_address" required>
+    <br>
+    <label>work phone:  </label>
+    <input type="text" name= "work_phone" required>
+    <br>
+    <label>home phone:</label>
+    <input type="text" name= "home_phone" >
+    <br>
+    <label>cell phone:</label>
+    <input type="text" name= "cell_phone">
+    <br>
+    <label>fax:</label>
+    <input type="text" name= "fax">
+    <br>
+    <label>Address1*:</label>
+    <input type="text" name= "Address1" required >
+    <br>
+    <label>Address2*:</label>
+    <input type="text" name= "Address2" required >
+    <br>
+    <label>City*:</label>
+    <input type="text" name= "City" required >
+    <br>
+    <label>state province*:</label>
+    <input type="text" name= "state_province" >
+    <br>
+    <label>zip postal code :</label>
+    <input type="text" name= "zip_postal_code" >
+    <br>
+    <label>Country*: </label>
+    <input type="text" name= "zip_postal_code" required >
+    <br>
+    <br>
+    <button onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Congratulations! (first name) (last name)  you are now signed up";
+        }
+        </script>
+
+</body>
+</html>
